@@ -1,0 +1,22 @@
+.class-container{
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.classes-list{
+    padding: 40px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
+
+
+/* Media Queries  */
+
+@media (max-width: 600px) {
+    .classes-list{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}

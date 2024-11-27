@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(226, 222, 222);
+
+}
+
+.logo{
+    font-weight: bold;
+}
+
+.menu a{
+    margin: 0 10px;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Media Query */
+
+@media (max-width: 600px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+}
