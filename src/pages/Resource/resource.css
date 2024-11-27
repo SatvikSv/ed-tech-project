@@ -1,0 +1,58 @@
+.resource-btns {
+    background-color: rgb(226, 222, 222);
+    padding: 40px;
+}
+
+.resource-btns h2 {
+    margin: 20px 0;
+}
+
+.filter-class {
+    display: flex;
+    margin: 30px 0;
+}
+
+.filter-class button {
+    margin: 0 20px;
+    /* width: 50px; */
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.filter-subject {
+    display: flex;
+}
+
+.filter-subject button {
+    margin: 0 20px;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.filter-class button:focus{
+    background-color: blue;
+    color: white;
+}
+
+.filter-subject button:focus{
+    background-color: blue;
+    color: white;
+}
+
+.resource-container {
+    padding: 40px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
+
+
+@media (max-width:600px){
+    .resource-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
